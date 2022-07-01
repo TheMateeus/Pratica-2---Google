@@ -1,0 +1,194 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* Header */ 
+.header {
+   height: 48px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 100%;
+}
+.gi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 30px;
+}
+.gi p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.ninedots {
+    height: 16px;  
+    width: 16px;
+    margin-right: 15px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: beige;
+    margin-right: 14px;
+
+}
+/* Imagem do Google */
+
+.google {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+/* Input de Pesquisa */
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    margin-top: 26px;
+   
+}
+.inputPesquisa {
+    background-color: transparent;
+    margin-left: 15px;
+    padding-top: 0;
+    outline: none;
+    height: 22px;
+    width: 430px;
+    
+}
+
+.inputPesquisa:focus , input:focus {
+    background: transparent;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+   
+}
+.inputdiv {
+    background: transparent;
+    border: 1px solid;
+    border-color: rgb(223, 223, 231);
+    height: 44px;
+    display: flex;
+    align-items: center;
+    width: 582px;
+    border-radius: 25px;
+
+}
+.inputdiv:hover {
+    box-shadow: 0px 1px 8px;
+    background-color:transparent;
+    border: 1px solid #dbdcdd;
+    color: #dbd7d7;
+}
+/* Icones do Input de pesquisa */
+.lupa {
+    height: 14.5px;
+    width: 15px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin-left: 16px;
+    opacity: 50%;
+}
+.keyboard {
+    background: url(https://www.gstatic.com/inputtools/images/tia.png) no-repeat center;
+    height: 24px;
+    width: 25px;
+    margin-left: 25px;
+    margin-top: 1px;
+}
+.voice {
+    height: 21px;
+    width: 19px;
+    margin-top: 3px;
+    margin-left: 17px;
+}
+
+/* Botoes de Pesquisa e Estou com sorte */
+.btn {
+padding-top: 18px;
+display: flex;
+justify-content: center;
+}
+.btn input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 5px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+.btn input:hover {
+    box-shadow: 0 1px 1pxrgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.pesquisa p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #3c4043;
+    
+}
+.disp {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+/*Footer */
+.footer{
+    flex-wrap: nowrap;
+    display: flex;
+    
+}
+.footerprincipal {
+    font-size: 14px;
+    color: #778191;
+    border-top: 1px solid;
+    border-color: #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #f2f2f2;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+.ghost {
+    height: 130px;
+}
+.footer p {
+    margin: 20px 5px 0 20px;
+    cursor: pointer;
+}
+.portugal {
+    font-size: 14px;
+    color: #778191;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color:#f2f2f2;
+}
+.footer img {
+    width: 12px;
+    height: 14px;
+}
